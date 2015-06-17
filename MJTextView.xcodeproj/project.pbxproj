@@ -14,6 +14,7 @@
 		D0F11A1A1B31677C009872CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F11A191B31677C009872CB /* Images.xcassets */; };
 		D0F11A1D1B31677C009872CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F11A1B1B31677C009872CB /* LaunchScreen.xib */; };
 		D0F11A291B31677C009872CB /* MJTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F11A281B31677C009872CB /* MJTextViewTests.m */; };
+		D0F11A341B31685F009872CB /* MJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F11A331B31685F009872CB /* MJTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D0F11A221B31677C009872CB /* MJTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F11A271B31677C009872CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0F11A281B31677C009872CB /* MJTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTextViewTests.m; sourceTree = "<group>"; };
+		D0F11A321B31685F009872CB /* MJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTextView.h; sourceTree = "<group>"; };
+		D0F11A331B31685F009872CB /* MJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				D0F11A131B31677C009872CB /* ViewController.h */,
 				D0F11A141B31677C009872CB /* ViewController.m */,
 				D0F11A161B31677C009872CB /* Main.storyboard */,
+				D0F11A321B31685F009872CB /* MJTextView.h */,
+				D0F11A331B31685F009872CB /* MJTextView.m */,
 				D0F11A191B31677C009872CB /* Images.xcassets */,
 				D0F11A1B1B31677C009872CB /* LaunchScreen.xib */,
 				D0F11A0C1B31677C009872CB /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				D0F11A151B31677C009872CB /* ViewController.m in Sources */,
 				D0F11A121B31677C009872CB /* AppDelegate.m in Sources */,
+				D0F11A341B31685F009872CB /* MJTextView.m in Sources */,
 				D0F11A0F1B31677C009872CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
