@@ -20,4 +20,9 @@
 }
 
 
+-(void)touchesBegan:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event{
+    [self.view endEditing:YES];
+}
+
+
 @end
